@@ -138,8 +138,6 @@ def training_op(env, model_path):
     :return:
     '''
 
-    EPISODE_NUM = 100
-
     dqn = DQN()
 
     action_stop_count = []
@@ -169,7 +167,7 @@ def training_op(env, model_path):
                 rela_att, rela_agent, rela_other = util.rela_reward_calculate(env.total_valid_blocks, env.attacker_valid_blocks, env.agent_valid_blocks)
 
 
-                break  # 该episode结束
+                break 
 
 
     torch.save(dqn, model_path)
