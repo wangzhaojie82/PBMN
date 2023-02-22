@@ -2,7 +2,7 @@
 #
 # 1) the attacker follows the SM1 strategy,
 # 2) attacker's mining power = \alpha,
-# 3) attacker always tries to launch an attack with probability \alpha (i.e. a rush adversary)
+# 3) attacker always tries to launch an attack with probability \alpha 
 #
 #
 # 4) honest miners' total mining power = 1- \alpha - \beta
